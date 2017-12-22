@@ -22,48 +22,36 @@ Matplotlib is a Python 2D plotting library which produces publication quality fi
 Seaborn is a Python visualization library based on matplotlib. It provides a high-level interface for drawing attractive statistical graphics.
 
 ## 5.Sklearn
-Scikit-learn (formerly scikits.learn) is a free software machine learning library for the Python programming language.[3] It features various classification, regression and clustering algorithms including support vector machines, random forests, gradient boosting, k-means and DBSCAN, and is designed to interoperate with the Python numerical and scientific libraries NumPy and SciPy.
+Scikit-learn (formerly scikits.learn) is a free software machine learning library for the Python programming language.It features various classification, regression and clustering algorithms including support vector machines, random forests, gradient boosting, k-means and DBSCAN, and is designed to interoperate with the Python numerical and scientific libraries NumPy and SciPy.
+
+# Data Importing & Pre-Processing
+
+- Collected one year product sales data(dimensions, weight, zone…)
+- Assigned specific data types for columns
+- Removed observations having incorrect data points based on exploratory analysis 
+- Used standard deviation approach for handling outliers
+- Not applied imputations since less % of missing values 
+- Pearson correlation was used for feature selection
+- Found features having multi-collinearity
 
 
-## Running the tests
+# Case Study
 
-Explain how to run the automated tests for this system
+## Company X is using two calculators for estimating package shipping amount
+- Expedited Shipping calculator
+- Average of Actuals calculator
 
-### Break down into end to end tests
+## Built Prediction model to replace Average of Actuals calculator
+- Predicting the package shipping amount
+- Predicting a product likely to be shipped to a particular zone by a specific partner
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### Multiple boxpots to identify outliers.
-
-
-## Built With
-
-ipynb Jupyter notebooks.
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Nithin Kamavaram** 
+* **Vidnyan Siddamshetty**
+* **Anusha Teerdala**
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details
