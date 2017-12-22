@@ -1,9 +1,9 @@
 
-#Predicting Outbound Shipping Cost
+# Predicting Outbound Shipping Cost
 
 * Predictive model in python to calculate actual cost of shipping based on fetaures from 12 months of shipping data.  
 
-###Libraries Used.
+### Libraries Used.
 
 # 1.Pandas
 Pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.
