@@ -1,7 +1,7 @@
 
 # Predicting Outbound Shipping Cost
 
-* Predictive model in python to calculate actual cost of shipping based on fetaures from 12 months of shipping data.  
+- Predictive model in python to calculate actual cost of shipping based on fetaures from 12 months of shipping data.  
 
 # Libraries Used.
 
@@ -10,10 +10,10 @@ Pandas is an open source, BSD-licensed library providing high-performance, easy-
 ## 2.Numpy
 NumPy is the fundamental package for scientific computing with Python. It contains among other things:
 
--A powerful N-dimensional array object
--Sophisticated (broadcasting) functions
--Tools for integrating C/C++ and Fortran code
--Useful linear algebra, Fourier transform, and random number capabilities
+- A powerful N-dimensional array object
+- Sophisticated (broadcasting) functions
+- Tools for integrating C/C++ and Fortran code
+- Useful linear algebra, Fourier transform, and random number capabilities
 
 ## 3.Matplotlib
 Matplotlib is a Python 2D plotting library which produces publication quality figures in a variety of hardcopy formats and interactive environments across platforms.
@@ -45,6 +45,19 @@ Scikit-learn (formerly scikits.learn) is a free software machine learning librar
 - Predicting the package shipping amount
 - Predicting a product likely to be shipped to a particular zone by a specific partner
 
+# Model Building
+
+- Applied different Linear Regression models and model performed well when multi-collinearity is removed and ’zone’ is considered as categorical
+- Trained data using advanced regression techniques Random Forest and Gradient Boosting
+- Random Forest performed well, tried different tuning options(number of trees,  features for split, number of parallel jobs…)
+
+## Metrics
+### - R-square 0.96
+### - Mean Absolute Error 1.44
+
+
+
+
 # Extensions & Improvements
 - Model accuracy can be increased using advanced techniques like neural nets
 - Use of distributed processing help in saving the model training time
@@ -54,7 +67,7 @@ Scikit-learn (formerly scikits.learn) is a free software machine learning librar
 
 * **Nithin Kamavaram** 
 * **Vidnyan Siddamshetty**
-* **Anusha Teerdala**
+* **Anusha Teerdhala**
 
 ## License
 
