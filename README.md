@@ -45,6 +45,10 @@ Scikit-learn (formerly scikits.learn) is a free software machine learning librar
 - Predicting the package shipping amount
 - Predicting a product likely to be shipped to a particular zone by a specific partner
 
+# Extensions & Improvements
+- Model accuracy can be increased using advanced techniques like neural nets
+- Use of distributed processing help in saving the model training time
+- Can use data science model for expedited shipping calculator also
 
 ## Authors
 
